@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 
-df = pd.read_csv('exoplanets.csv')
+df = pd.read_csv('feature_importance.csv')
 # Create a title
 st.title('Exoplanet Classification')
 
