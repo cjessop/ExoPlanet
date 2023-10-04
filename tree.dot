@@ -1,6 +1,6 @@
 digraph Tree {
-node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
-edge [fontname=helvetica] ;
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
 0 [label="DispositionScore <= 0.29\ngini = 0.5\nsamples = 3959\nvalue = [3056, 3186]\nclass = Candidate", fillcolor="#f7fbfe"] ;
 1 [label="StellarEffectiveTemperatureUpperUnc.[K] <= 120.5\ngini = 0.11\nsamples = 1967\nvalue = [2934, 177]\nclass = Not Candidate", fillcolor="#e78945"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
