@@ -21,4 +21,4 @@ st.sidebar.header('User Input Parameters')
 st.write("""
 ## Planety radius [Earth radii]
 """)
-input_planet_rad = np.float(st.text_input('Enter the observed planets radii'))
+input_planet_rad = np.float(st.text_input('Enter the observed planets radii', 1.0))
